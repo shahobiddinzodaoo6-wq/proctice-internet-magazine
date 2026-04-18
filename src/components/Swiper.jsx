@@ -22,6 +22,7 @@ const slides = [
         title: '> 1000 наименований продуктов питания оптом',
         subtitle: 'для HoReCa, общепита, производителей',
     },
+
     {
         img: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1600&q=80",
         title: '> 1000 наименований продуктов питания оптом',
@@ -67,3 +68,7 @@ const Swiperr = () => {
 };
 
 export default Swiperr;
+
+
+
+

@@ -20,7 +20,9 @@ const Videos = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
+            
             <div className='flex justify-center gap-[30px] mt-[80px] ml-[350px] max-sm:ml-[0px] max-sm:flex-col max-sm:items-center'>
                 <div className='max-sm:hidden'>
                     <img src={videos} alt="" />
