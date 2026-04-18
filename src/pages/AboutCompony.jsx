@@ -15,6 +15,7 @@ import MokApi from '@/components/MokApi'
 
 
 
+
 const AboutCompony = () => {
   return (
     <>
@@ -105,4 +106,11 @@ const AboutCompony = () => {
   )
 }
 
+
+
 export default AboutCompony
+
+
+
+
+

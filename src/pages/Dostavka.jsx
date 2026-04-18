@@ -98,3 +98,6 @@ const Dostavka = () => {
 }
 
 export default Dostavka
+
+
+
