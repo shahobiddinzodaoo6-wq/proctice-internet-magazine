@@ -28,6 +28,8 @@ const MokApi = () => {
 
 
 
+
+
     const showModal = () => {
         setAddModal(true);
     };
@@ -89,6 +91,7 @@ const MokApi = () => {
     }
 
 
+
     async function get() {
         try {
             let { data } = await axios.get(api)
@@ -99,6 +102,7 @@ const MokApi = () => {
         }
     }
 
+
     async function deletUser(id) {
         try {
             await axios.delete(`${api}/${id}`)
@@ -108,6 +112,7 @@ const MokApi = () => {
 
         }
     }
+
 
     useEffect(() => {
         get()
@@ -165,6 +170,7 @@ const MokApi = () => {
 
 
 
+
             <Modal
                 title="Basic Modal"
                 closable={{ 'aria-label': 'Custom Close Button' }}
@@ -181,6 +187,7 @@ const MokApi = () => {
                 </select><br />
                 <Button type="primary" onClick={addUser} className='mt-[20px]' >Save</Button>
             </Modal>
+
 
 
 
@@ -206,5 +213,6 @@ const MokApi = () => {
         </>
     )
 }
+
 
 export default MokApi
