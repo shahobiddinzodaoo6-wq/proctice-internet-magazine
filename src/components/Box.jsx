@@ -3,6 +3,8 @@ import image from '../assets/Frame 1618868410.png'
 import karzin from '../assets/Long Button Desktop.png'
 
 
+
+
 const Box = () => {
     return (
         <>

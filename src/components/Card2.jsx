@@ -3,6 +3,7 @@ import image from '../assets/Frame 1321317016.svg'
 
 
 
+
 const Card2 = () => {
     return (
         <>
