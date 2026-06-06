@@ -21,6 +21,7 @@ const Proizvodsvo = () => {
             <h1 className='ml-[30px] pt-[5px] text-[18px]'>Филе рыбы, <br /> стейки, фарш</h1>
 
 
+
           </div>
           <p className='m-[20px]'>Филе горбуши</p>
           <p className='m-[20px]'>Филе горбуши</p>
