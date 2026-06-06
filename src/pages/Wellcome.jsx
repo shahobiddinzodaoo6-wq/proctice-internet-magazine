@@ -6,5 +6,7 @@ const Wellcome = () => {
   )
 }
 
+
+
 export default Wellcome
 
