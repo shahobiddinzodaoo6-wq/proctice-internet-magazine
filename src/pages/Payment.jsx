@@ -5,6 +5,8 @@ import Card2 from '@/components/Card2'
 
 
 
+
+
 const Payment = () => {
   return (
     <>
@@ -141,3 +143,6 @@ const Payment = () => {
 }
 
 export default Payment
+
+
+
