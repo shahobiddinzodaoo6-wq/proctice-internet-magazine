@@ -88,6 +88,12 @@ const Postavshikam = () => {
   )
 }
 
+
+
+
 export default Postavshikam
+
+
+
 
 
