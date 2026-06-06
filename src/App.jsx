@@ -13,6 +13,8 @@ import Home from './pages/Home'
 import Info from './pages/Info'
 import Carzinka from './pages/Carzinka'
 
+
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -36,3 +38,5 @@ const App = () => {
 }
 
 export default App
+
+
