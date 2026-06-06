@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import watsap from '../assets/WhatsApp.png'
 import tell from '../assets/Frame 6880.svg'
@@ -37,18 +39,6 @@ import imggg from '../assets/Content (1).svg'
 import Card2 from '../components/Card2'
 import Map from '../components/Map'
 import Swiperr from '../components/Swiper'
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
