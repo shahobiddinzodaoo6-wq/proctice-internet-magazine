@@ -7,6 +7,7 @@ const initialState = {
 
 const ThemeProviderContext = createContext(initialState)
 
+
 export function ThemeProvider({
   children,
   defaultTheme = "system",
@@ -16,6 +17,8 @@ export function ThemeProvider({
   const [theme, setTheme] = useState(
     () => localStorage.getItem(storageKey) || defaultTheme
   )
+
+
 
   useEffect(() => {
     const root = window.document.documentElement
@@ -43,12 +46,18 @@ export function ThemeProvider({
     },
   }
 
+
+
   return (
     <ThemeProviderContext.Provider {...props} value={value}>
       {children}
     </ThemeProviderContext.Provider>
   )
 }
+
+
+
+
 
 export const useTheme = () => {
   const context = useContext(ThemeProviderContext)
@@ -58,3 +67,4 @@ export const useTheme = () => {
 
   return context
 }
+
