@@ -12,6 +12,8 @@ import { useTheme } from "@/components/ui/theme-provider"
 export function ModeToggle() {
   const { setTheme } = useTheme()
 
+
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -35,3 +37,5 @@ export function ModeToggle() {
     </DropdownMenu>
   )
 }
+
+
