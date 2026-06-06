@@ -72,6 +72,7 @@ const Layout = () => {
                             </Link>
                         </div>
 
+
                     </div>
                     <div className='flex gap-[20px] max-sm:hidden'>
                         <img className='w-[60px] h-[26px] mt-[15px]' src={sotset} alt="" />
@@ -94,6 +95,7 @@ const Layout = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className='h-[90px] bg-[#203686] mt-[30px] max-sm:hidden'>
                     <div className='flex justify-center gap-[150px] pt-[25px]'>
                         <div className='flex gap-[40px]'>
@@ -187,3 +189,6 @@ const Layout = () => {
 }
 
 export default Layout
+
+
+
