@@ -67,6 +67,9 @@ const Swiperr = () => {
     );
 };
 
+
+
+
 export default Swiperr;
 
 
